@@ -1,0 +1,19 @@
+{
+  "name": "wp-demo",
+  "version": "1.0.0",
+  "description": "A gatsby-source-wordpress demo",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/wp-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/wp-demo/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/wp-demo#readme",
+  "dependencies": {}
+}
