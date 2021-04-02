@@ -1,19 +1,30 @@
 {
-  "name": "wp-demo",
+  "name": "choose-your-own-adventure",
   "version": "1.0.0",
   "description": "A gatsby-source-wordpress demo",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaulieScanlon/wp-demo.git"
+    "url": "git+https://github.com/PaulieScanlon/choose-your-own-adventure.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PaulieScanlon/wp-demo/issues"
+    "url": "https://github.com/PaulieScanlon/choose-your-own-adventure/issues"
   },
-  "homepage": "https://github.com/PaulieScanlon/wp-demo#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/PaulieScanlon/choose-your-own-adventure#readme",
+  "dependencies": {
+    "gatsby": "^3.0.0",
+    "gatsby-plugin-gatsby-cloud": "^2.2.0",
+    "gatsby-plugin-sharp": "^3.2.0",
+    "gatsby-source-wordpress": "^5.2.0",
+    "gatsby-transformer-sharp": "^3.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
 }
